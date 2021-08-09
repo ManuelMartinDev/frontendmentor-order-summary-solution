@@ -1,0 +1,215 @@
+/* global desktop view */
+@media only screen and (min-width: 375px) {
+  .clr-desaturated {
+    color: hsl(224, 23%, 55%);
+  }
+  .clr-dark-blue {
+    color: hsl(223, 47%, 23%);
+  }
+  :root {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/background-path.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    padding: 0px 16px;
+  }
+  .card {
+    background-color: #fff;
+    max-width: 450px;
+    margin: 100px auto;
+    border-radius: 24px;
+  }
+  .card-img {
+    border-radius: 24px 24px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  .card-text {
+    text-align: center;
+    padding: 48px 32px;
+  }
+  h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0px;
+  }
+  .promo {
+    margin: 0px 16px;
+    margin-bottom: 24px;
+    color: hsl(224, 23%, 55%);
+    line-height: 24px;
+  }
+  .plan-selection {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+    box-sizing:border-box;
+    padding: 12px 24px;
+    margin-bottom: 32px; 
+  }
+  .change {
+    margin-left: auto;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+  }	
+  .change:hover {
+    opacity: 80%;
+  }	
+  .plan-text p {
+    line-height: 12px;
+    margin-left: 16px;
+  }
+  .btn {
+    padding: 16px 24px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 12px;
+    font-weight: 700;
+    margin-bottom: 32px; 
+    box-shadow: 0px 15px 20px 3px rgba(56,41,224,0.20);
+  }
+  .btn:hover {
+    opacity: 80%;
+  }
+  .cancel {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+  }
+  .cancel:hover {
+    color: black;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    position: fixed;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .attribution a:hover { 
+    color: black;
+  }
+}
+/* mobile view 375px */
+@media only screen and (max-width: 375px) {
+  .clr-desaturated {
+    color: hsl(224, 23%, 55%);
+  }
+  .clr-dark-blue {
+    color: hsl(223, 47%, 23%);
+  }
+  :root {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+  }
+  body {
+    background-color: hsl(225, 100%, 94%);
+  }
+  main {
+    padding: 0px 16px;
+  }
+  .card {
+    background-color: #fff;
+    max-width: 450px;
+    margin: 75px auto;
+    border-radius: 24px;
+  }
+  .card-img {
+    border-radius: 24px 24px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  .card-text {
+    text-align: center;
+    padding: 32px 24px;
+  }
+  h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0px;
+    font-size: 24px;
+  }
+  .promo {
+    margin: 0px 16px;
+    margin-bottom: 24px;
+    color: hsl(224, 23%, 55%);
+    line-height: 24px;
+  }
+  .plan-selection {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+    box-sizing:border-box;
+    padding: 12px 16px;
+    margin-bottom: 32px; 
+  }
+  .change {
+    margin-left: auto;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+  }	
+  .change:hover {
+    opacity: 80%;
+  }	
+  .plan-text p {
+    line-height: 12px;
+    margin-left: 16px;
+  }
+  .btn {
+    padding: 16px 24px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 12px;
+    font-weight: 700;
+    margin-bottom: 32px; 
+    box-shadow: 0px 15px 20px 3px rgba(56,41,224,0.20);
+  }
+  .btn:hover {
+    opacity: 80%;
+  }
+  .cancel {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+  }
+  .cancel:hover {
+    color: black;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .attribution a:hover { 
+    color: black;
+  }  
+  
+  
+}
+
