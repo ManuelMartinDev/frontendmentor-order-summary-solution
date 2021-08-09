@@ -153,6 +153,6 @@ I had problems with the positioning of the attribution but i found a way to do i
 
 ## Author
 
-- Frontend Mentor - [@spacecylinder](https://www.frontendmentor.io/profile/spacecylinder)
+- Frontend Mentor - [@spacecylinder](https://github.com/Maarten-Mobron)
 - Twitter - [@maarten_mobron](https://twitter.com/maarten_mobron)
 - Instagram - [@maarten_mobron](https://www.instagram.com/maarten_mobron/)
